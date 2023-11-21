@@ -31,11 +31,25 @@ div.tituloderecha {
 
 nav {
     position: relative;
-    padding: 25px;
+
     background-color: grey;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .menu-arriba {
     display: inline-block;
     padding-right: 150px;
+    padding: 25px;
+    padding-right: 100px;
+}
+
+.menu-arriba:first-child {
+    background-color: darkgray;
+    border-top-left-radius: 20px;
+}
+
+.principal {
+    float: left;
+    background-color: darkgrey;
+    padding: 20%;
 }
