@@ -62,6 +62,6 @@ nav {
     padding: 20%;
 }
 
-.menu-arriba:hover {
+.menu-arriba:hover:not(:first-child) {
     background-color: black;
 }
