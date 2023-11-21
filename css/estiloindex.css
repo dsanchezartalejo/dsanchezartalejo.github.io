@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.container {
+    margin: 10px auto;
+    width: 95%;
+}
+
+div.titulo {
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+div.tituloderecha {
+    float: right;
+    top: -110px;
+    right: 10px;
+    position: relative;
+    font-size: 150%;
+}
+
+
+
+nav {
+    position: relative;
+    padding: 25px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.menu-arriba {
+    display: inline-block;
+    padding-right: 150px;
+}

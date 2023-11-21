@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/estiloindex.css">
 </head>
-<body>
+<body onload="startTime()">
+    <script>
+        function startTime() {
+            const today = new Date();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+            setTimeout(startTime, 1000);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+    </script>
     <div>
-        <h1>Proyecto de Daniel Sánchez</h1>
+        <div class="titulo">
+            <h1>Proyecto de Daniel Sánchez 👍🏻</h1>
+        </div>
+        <div id="txt" class="tituloderecha"></div>
+        <div class="container">
+            
+            <nav>
+                <div class="menu-arriba">Inicio</div>
+                <div class="menu-arriba">CV</div>
+                <div class="menu-arriba">Formulario</div>
+                <div class="menu-arriba">Desarrollo</div>
+            </nav>
+        </div>
     </div>
-    <div>
-        <p><a href="https://dsanchezartalejo.github.io/1EVAL_HTMLyCSS_AW_2B_dsanchezartalejo/">Aqui esta una de las practicas que estoy haciendo</a></p>
-    </div>
+    
 </body>
 </html>
