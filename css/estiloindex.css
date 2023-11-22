@@ -50,6 +50,10 @@ nav {
     font-size: 125%;
 }
 
+.menu-arriba:link, .menu-arriba:visited, .menu-arriba:active{
+    text-decoration: none;
+}
+
 .menu-arriba:first-child {
     position: relative;
     background-color: darkgray;
