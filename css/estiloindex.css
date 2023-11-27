@@ -62,9 +62,11 @@ nav {
 
 .barralateral {
     float: left;
-    padding: 1%;
+    padding: 2%;
     background-color: darkgray;
     width: 14%;
+    font-size: 150%;
+    height: 1345px;
 }
 
 h3.barralateral {
@@ -106,6 +108,7 @@ h2 {
     display: inline-block;
     width: 33%;
     padding: 10px;
+    font-size: 115%;
 }
 
 .nodejar {
@@ -129,4 +132,14 @@ img {
 .AWfrecuencia {
     position: relative;
     text-align: center;
+}
+
+footer {
+    float: left;
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
