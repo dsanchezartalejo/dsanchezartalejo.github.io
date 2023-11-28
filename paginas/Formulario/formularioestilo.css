@@ -55,13 +55,18 @@ nav {
     text-decoration: none;
 }
 
-.menu-arriba:nth-child(2) {
+.menu-arriba:nth-child(3) {
     position: relative;
     background-color: darkgray;
 }
 
-.menu-arriba:hover:not(:nth-child(2)) {
+.menu-arriba:hover:not(:nth-child(3)) {
     background-color: black;
+}
+
+.menu-arriba:hover:first-child {
+    background-color: black;
+    border-top-left-radius: 20px;
 }
 
 .barralateral {
