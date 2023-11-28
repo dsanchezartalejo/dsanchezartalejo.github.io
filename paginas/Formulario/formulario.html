@@ -48,47 +48,50 @@
                 <div class="contenidocv">
                     <form class="formulario" action="proyecto.php" method="get">
                         <fieldset>
-                        <legend>Información personal</legend>
-                        <p>Apellidos: <input type="text" name="apellidos" required size="20"></p>
-                        <p>Nombre: <input type="text" name="nombre" required size="10"></p>
-                        <p>Código postal: <input type="number" name="CP" required size="5" min="01001" max="52006"  ></p>
-                        <p>Fecha de nacimiento<input required type="date" name="fecha"></p>
-                        <p>Número de teléfono: <input required type="tel" name="tlf" minlength="9" maxlength="9" size="9"></p>
-                        <p>Correo electrónico: <input required type="email" name="correo" size="30"></p>
-                        <p>
-                            Sexo:</br>
-                            <input required type="radio" name="hm" value="h" id="hombre"> <label for="hombre">Hombre</label>
-                            <input required type="radio" name="hm" value="m" id="mujer"> <label for="mujer">Mujer</label>
-                        </p>
+                            <legend>Información personal</legend>
+                            <p>Apellidos: <input type="text" name="apellidos" required size="20"></p>
+                            <p>Nombre: <input type="text" name="nombre" required size="10"></p>
+                            <p>Código postal: <input type="number" name="CP" required size="5" min="01001" max="52006"  ></p>
+                            <p>Fecha de nacimiento<input required type="date" name="fecha"></p>
+                            <p>Número de teléfono: <input required type="tel" name="tlf" minlength="9" maxlength="9" size="9"></p>
+                            <p>Correo electrónico: <input required type="email" name="correo" size="30"></p>
+                            <p>
+                                Sexo:</br>
+                                <input required type="radio" name="hm" value="h" id="hombre"> <label for="hombre">Hombre</label>
+                                <input required type="radio" name="hm" value="m" id="mujer"> <label for="mujer">Mujer</label>
+                            </p>
                         </fieldset>
-                        <fieldset> <legend>Información académica/profesional.</legend>
-                        <p>Nivel formativo (?)
-                            <select required name="formación">
-                                <option disabled selected value="0">Elija una opción.</option>
-                                <option value="1">Ninguno</option>
-                                <option value="2">Primaria</option>
-                                <option value="3">ESO</option>
-                                <option value="4">Bachillerato</option>
-                                <option value="5">Grado Medio</option>
-                                <option value="6">Grado Superior / Universidad</option>
-                            </select>
-                        </p>
-                        <p>
-                            ¿Dónde ha cursado Sistemas Microinformáticos y Redes?</br>
-                            <input required type="radio" name="villauotro" value="villa" id="villa"> <label for="villa">IES Villablanca</label>
-                            <input required type="radio" name="villauotro" value="otro" id="otro"> <label for="otro">Otro centro</label>
-                        </p>
-                        <p><fieldset> <legend>En caso de haber suspendido alguna asignatura, marque cuáles son.</legend>
-                            <input type="checkbox" id="SOR"><label for="SOR">SOR</label>
-                            <input type="checkbox" id="SR"><label for="SR">SR</label>
-                            <input type="checkbox" id="AW"><label for="AW">AW</label>
-                            <input type="checkbox" id="SI"><label for="SI">SI</label>
-                            <input type="checkbox" id="Empresa"><label for="Empresa">Empresa</label>
-                            <input type="checkbox" id="Inglés"><label for="Inglés">Inglés</label>
-                        </p>
-                        </fieldset>
-                        <textarea required name="texto" rows="4" cols="40" placeholder="¿Por qué cree que deberíamos contratarle?"></textarea></br>
-                        </fieldset>
+                        <fieldset>
+                            <legend>Información académica/profesional.</legend>
+                            <p>Nivel formativo (?)
+                                <select required name="formación">
+                                    <option disabled selected value="0">Elija una opción.</option>
+                                    <option value="1">Ninguno</option>
+                                    <option value="2">Primaria</option>
+                                    <option value="3">ESO</option>
+                                    <option value="4">Bachillerato</option>
+                                    <option value="5">Grado Medio</option>
+                                    <option value="6">Grado Superior / Universidad</option>
+                                </select>
+                            </p>
+                            <p>
+                                ¿Dónde ha cursado Sistemas Microinformáticos y Redes?</br>
+                                <input required type="radio" name="villauotro" value="villa" id="villa"> <label for="villa">IES Villablanca</label>
+                                <input required type="radio" name="villauotro" value="otro" id="otro"> <label for="otro">Otro centro</label>
+                            </p>
+                            <p>
+                                <fieldset> 
+                                    <legend>En caso de haber suspendido alguna asignatura, marque cuáles son.</legend>
+                                    <input type="checkbox" id="SOR"><label for="SOR">SOR</label>
+                                    <input type="checkbox" id="SR"><label for="SR">SR</label>
+                                    <input type="checkbox" id="AW"><label for="AW">AW</label>
+                                    <input type="checkbox" id="SI"><label for="SI">SI</label>
+                                    <input type="checkbox" id="Empresa"><label for="Empresa">Empresa</label>
+                                    <input type="checkbox" id="Inglés"><label for="Inglés">Inglés</label>
+                                </p>
+                                </fieldset>
+                            <textarea required name="texto" rows="4" cols="40" placeholder="¿Por qué cree que deberíamos contratarle?"></textarea></br>
+                            </fieldset>
                         <input type="submit" value="Enviar">
                         </form>
                 </div>
