@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="curriculumestilo.css">
+</head>
+<body onload="startTime()">
+    <script>
+        function startTime() {
+            const today = new Date();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+            setTimeout(startTime, 1000);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+    </script>
+    <div>
+        <div class="titulo">
+            <h1>Proyecto de Daniel Sánchez 👍🏻</h1>
+        </div>
+        <div id="txt" class="tituloderecha"></div>
+        <div class="container">
+            <nav>
+                <a class="menu-arriba" href="../../index.html">Inicio</a>
+                <div class="menu-arriba">CV</div>
+                <a class="menu-arriba" href="../Formulario/formulario.html">Formulario</a>
+                <a class="menu-arriba" href="../Desarrollo/desarrollo.html">Desarrollo</a>
+            </nav>
+            <div class="principal">
+                <div class="barralateral">
+                    <h3>Info mia</h3>
+                    <ul>
+                        <li>Nombre: Daniel Sánchez Artalejo</li>
+                        <li>Edad: 18 años</li>
+                        <li>Estudios: SMR</li>
+                        <li>Centro: Villablanca</li>
+                    </ul>
+                </div>
+                <div class="contenidocv">
+                    <p>hola</p>
+                </div>
+            </div>
+            <footer>
+                Pagina desarrollada por Daniel Sánchez Artalejo
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html>
