@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(30, 30, 30);    
+
+}
+
+.container {
+    margin: 10px auto;
+    width: 95%;
+}
+
+div.titulo {
+    background-color: blue;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    font-size: 120%;
+}
+
+div.tituloderecha {
+    float: right;
+    top: -110px;
+    right: 10px;
+    position: relative;
+    font-size: 150%;
+}
+
+
+
+nav {
+    position: relative;
+    left: 4px;
+    background-color: grey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.menu-arriba {
+    display: inline-block;
+    margin: 0 -4px;
+    padding: 25px;
+    padding-right: 150px;
+    padding-left: 30px;
+    font-size: 125%;
+}
+
+.menu-arriba:link, .menu-arriba:visited, .menu-arriba:active{
+    text-decoration: none;
+}
+
+.menu-arriba:nth-child(2) {
+    position: relative;
+    background-color: darkgray;
+}
+
+.menu-arriba:hover:not(:nth-child(2)) {
+    background-color: black;
+}
+
+.barralateral {
+    float: left;
+    background-color: darkgray;
+    padding: 15px;
+    margin-left: -1.1%;
+    margin-top: -1.01%;
+    width: 10%;
+    font-size: 125%;
+    height: 100%;
+    border: 5px solid black;
+}
+
+h3.barralateral {
+    text-align: center;
+}
+
+.principal {
+    float: left;
+    background-color: darkgrey;
+    padding: 1%;
+    width: 100%;
+    margin-left: 4px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+
+/*WACALAA*/
+
+
+.contenidocv {
+    float: left;
+    width: 90%;
+}
+
+.formulario {
+    color: black;
+}
+
+input {
+    color: black;
+}
+
+select {
+    color: black;
+}
+
+textarea {
+    color: black;
+}
+
+
+footer {
+    float: left;
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+    width: 100%;
+    margin-left: 4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
