@@ -54,12 +54,12 @@ nav {
     text-decoration: none;
 }
 
-.menu-arriba:nth-child(2) {
+.menu-arriba:nth-child(4) {
     position: relative;
     background-color: darkgray;
 }
 
-.menu-arriba:hover:not(:nth-child(2)) {
+.menu-arriba:hover:not(:nth-child(4)) {
     background-color: black;
 }
 
