@@ -105,9 +105,25 @@ h2 {
 .contenidocv {
     float: left;
     width: 83%;
+    padding: 10px;
 }
 
 /* CODIGO NUEVO */
+
+.layout {
+    text-align: center;
+}
+
+hr {
+    text-align: center;
+    width: 70%;
+}
+
+.layout img:first-of-type {
+    width: 30%;
+    padding: 10px;
+}
+
 
 
 footer {
