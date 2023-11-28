@@ -69,18 +69,6 @@ nav {
     border-top-left-radius: 20px;
 }
 
-.barralateral {
-    float: left;
-    background-color: darkgray;
-    padding: 15px;
-    margin-left: -1.1%;
-    margin-top: -1.01%;
-    width: 10%;
-    font-size: 125%;
-    height: 100%;
-    border: 5px solid black;
-}
-
 h3.barralateral {
     text-align: center;
 }
@@ -98,13 +86,29 @@ h2 {
     top: 15px;
 }
 
+.barralateral {
+    float: left;
+    padding: 15px;
+    background-color: darkgray;
+    margin-left: -1.1%;
+    margin-top: -1.01%;
+    width: 13%;
+    height: 100%;
+    font-size: 125%;
+    border: 5px solid black;
+}
+
+.lilateral {
+    padding: 15px;
+}
 
 /*WACALAA*/
 
 
 .contenidocv {
     float: left;
-    width: 90%;
+    width: 83%;
+    padding: 10px;
 }
 
 .formulario {

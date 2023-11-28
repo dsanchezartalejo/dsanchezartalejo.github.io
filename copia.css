@@ -54,30 +54,10 @@ nav {
     text-decoration: none;
 }
 
-.menu-arriba:nth-child(2) {
+.menu-arriba:first-child {
     position: relative;
     background-color: darkgray;
-}
-
-.menu-arriba:hover:not(:nth-child(2)) {
-    background-color: black;
-}
-
-.menu-arriba:hover:first-child {
-    background-color: black;
     border-top-left-radius: 20px;
-}
-
-.barralateral {
-    float: left;
-    background-color: darkgray;
-    padding: 15px;
-    margin-left: -1.1%;
-    margin-top: -1.01%;
-    width: 10%;
-    font-size: 125%;
-    height: 100%;
-    border: 5px solid black;
 }
 
 h3.barralateral {
@@ -89,7 +69,6 @@ h3.barralateral {
     background-color: darkgrey;
     padding: 1%;
     width: 100%;
-    margin-left: 4px;
 }
 h2 {
     position: relative;
@@ -97,13 +76,33 @@ h2 {
     top: 15px;
 }
 
-
-.contenidocv {
-    float: left;
-    width: 90%;
+.menu-arriba:hover:not(:first-child) {
+    background-color: black;
 }
 
-/* CODIGO NUEVO */
+.barralateral {
+    float: left;
+    padding: 15px;
+    background-color: darkgray;
+    margin-left: -1.1%;
+    margin-top: -1.01%;
+    width: 13%;
+    height: 100%;
+    font-size: 125%;
+    border: 5px solid black;
+}
+
+.lilateral {
+    padding: 15px;
+}
+
+.parteinfo {
+    float: left;
+    width: 87%;
+    padding-left: 2%;
+}
+
+/* ABAJO MAS CODIGO */
 
 
 footer {
@@ -112,7 +111,6 @@ footer {
     background-color: grey;
     padding: 30px;
     width: 100%;
-    margin-left: 4px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }

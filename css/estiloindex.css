@@ -60,18 +60,6 @@ nav {
     border-top-left-radius: 20px;
 }
 
-.barralateral {
-    float: left;
-    padding: 15px;
-    background-color: darkgray;
-    margin-left: -1.1%;
-    margin-top: -1.01%;
-    width: 10%;
-    height: 100%;
-    font-size: 125%;
-    border: 5px solid black;
-}
-
 h3.barralateral {
     text-align: center;
 }
@@ -92,9 +80,25 @@ h2 {
     background-color: black;
 }
 
+.barralateral {
+    float: left;
+    padding: 15px;
+    background-color: darkgray;
+    margin-left: -1.1%;
+    margin-top: -1.01%;
+    width: 13%;
+    height: 100%;
+    font-size: 125%;
+    border: 5px solid black;
+}
+
+.lilateral {
+    padding: 15px;
+}
+
 .parteinfo {
     float: left;
-    width: 90%;
+    width: 87%;
     padding-left: 2%;
 }
 
@@ -141,6 +145,10 @@ img {
 .AWfrecuencia {
     position: relative;
     text-align: center;
+}
+
+.AWfrecuenciaa {
+    padding: 10px;
 }
 
 footer {
