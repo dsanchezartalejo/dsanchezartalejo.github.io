@@ -62,11 +62,14 @@ nav {
 
 .barralateral {
     float: left;
-    padding: 2%;
+    padding: 15px;
     background-color: darkgray;
-    width: 14%;
-    font-size: 150%;
-    height: 1345px;
+    margin-left: -1.1%;
+    margin-top: -1.01%;
+    width: 10%;
+    height: 100%;
+    font-size: 125%;
+    border: 5px solid black;
 }
 
 h3.barralateral {
@@ -76,8 +79,8 @@ h3.barralateral {
 .principal {
     float: left;
     background-color: darkgrey;
-    padding: 3%;
-    width: 86%;
+    padding: 1%;
+    width: 100%;
 }
 h2 {
     position: relative;
@@ -87,6 +90,12 @@ h2 {
 
 .menu-arriba:hover:not(:first-child) {
     background-color: black;
+}
+
+.parteinfo {
+    float: left;
+    width: 90%;
+    padding-left: 2%;
 }
 
 .caracteristicas {
