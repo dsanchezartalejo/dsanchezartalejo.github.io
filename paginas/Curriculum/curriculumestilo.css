@@ -120,6 +120,7 @@ h2 {
 .cabeceratexto {
     float: left;
     padding-right: 30%;
+    font-size: 125%;
 }
 
 .cabeceraimagen {
@@ -127,8 +128,7 @@ h2 {
     position: relative;
     left: 30%;
     width: 30%;
-    border: 5px black solid;
-    
+    border: 5px black solid;    
 }
 
 /*WACALAA*/
