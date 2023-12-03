@@ -124,6 +124,12 @@ hr {
     padding: 10px;
 }
 
+.textolayout {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
 
 
 footer {
